@@ -1,0 +1,452 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Macbook Pro M1 2020",
+            "price": 2000,
+            "image": "https://www.cnet.com/a/img/resize/ef6793231464c98cdb3e5e9ffb780405eb2a8427/hub/2021/10/23/80425069-0d3e-4c67-9085-a66e6177fc60/macbook-pro-2021-cnet-review-12.jpg?auto=webp&fit=crop&height=362&width=644",
+            "description": "The new Macbook Pro M1 2020 is the best laptop for developers and designers",
+            "category": "laptop",
+            "quantity": 10,
+            "rating": 4.5,
+            "numReviews": 10,
+            "brand": "Apple",
+            "createdAt": "2021-01-01T00:00:00.000Z",
+            "updatedAt": "2021-01-01T00:00:00.000Z",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "John Doe",
+                    "rating": 5,
+                    "comment": "The best laptop I have ever used",
+                    "createdAt": "2021-01-01T00:00:00.000Z",
+                    "updatedAt": "2021-01-01T00:00:00.000Z"
+                },
+                {
+                    "id": 2,
+                    "name": "Jane Doe",
+                    "rating": 4,
+                    "comment": "The laptop is great but the price is too high",
+                    "createdAt": "2021-01-01T00:00:00.000Z",
+                    "updatedAt": "2021-01-01T00:00:00.000Z"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Dell XPS 15 2020",
+            "price": 1500,
+            "image": "https://www.cnet.com/a/img/resize/ef6793231464c98cdb3e5e9ffb780405eb2a8427/hub/2021/10/23/80425069-0d3e-4c67-9085-a66e6177fc60/macbook-pro-2021-cnet-review-12.jpg?auto=webp&fit=crop&height=362&width=644",
+            "description": "The new Dell XPS 15 2020 is the best laptop for developers and designers",
+            "category": "laptop",
+            "quantity": 10,
+            "rating": 4.5,
+            "numReviews": 10,
+            "brand": "Dell",
+            "createdAt": "2021-01-01T00:00:00.000Z",
+            "updatedAt": "2021-01-01T00:00:00.000Z",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "John Doe",
+                    "rating": 5,
+                    "comment": "The best laptop I have ever used",
+                    "createdAt": "2021-01-01T00:00:00.000Z",
+                    "updatedAt": "2021-01-01T00:00:00.000Z"
+                },
+                {
+                    "id": 2,
+                    "name": "Jane Doe",
+                    "rating": 4,
+                    "comment": "The laptop is great but the price is too high",
+                    "createdAt": "2021-01-01T00:00:00.000Z",
+                    "updatedAt": "2021-01-01T00:00:00.000Z"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "HP Spectre x360 2020",
+            "price": 1200,
+            "image": "https://www.cnet.com/a/img/resize/ef6793231464c98cdb3e5e9ffb780405eb2a8427/hub/2021/10/23/80425069-0d3e-4c67-9085-a66e6177fc60/macbook-pro-2021-cnet-review-12.jpg?auto=webp&fit=crop&height=362&width=644",
+            "description": "The new HP Spectre x360 2020 is the best laptop for developers and designers",
+            "category": "laptop",
+            "quantity": 10,
+            "rating": 4.5,
+            "numReviews": 10,
+            "brand": "HP",
+            "createdAt": "2021-01-01T00:00:00.000Z",
+            "updatedAt": "2021-01-01T00:00:00.000Z",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "John Doe",
+                    "rating": 5,
+                    "comment": "The best laptop I have ever used",
+                    "createdAt": "2021-01-01T00:00:00.000Z",
+                    "updatedAt": "2021-01-01T00:00:00.000Z"
+                },
+                {
+                    "id": 2,
+                    "name": "Jane Doe",
+                    "rating": 4,
+                    "comment": "The laptop is great but the price is too high",
+                    "createdAt": "2021-01-01T00:00:00.000Z",
+                    "updatedAt": "2021-01-01T00:00:00.000Z"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Lenovo ThinkPad X1 Carbon 2020",
+            "price": 1300,
+            "image": "https://www.cnet.com/a/img/resize/ef6793231464c98cdb3e5e9ffb780405eb2a8427/hub/2021/10/23/80425069-0d3e-4c67-9085-a66e6177fc60/macbook-pro-2021-cnet-review-12.jpg?auto=webp&fit=crop&height=362&width=644",
+            "description": "The new Lenovo ThinkPad X1 Carbon 2020 is the best laptop for developers and designers",
+            "category": "laptop",
+            "quantity": 10,
+            "rating": 4.5,
+            "numReviews": 10,
+            "brand": "Lenovo",
+            "createdAt": "2021-01-01T00:00:00.000Z",
+            "updatedAt": "2021-01-01T00:00:00.000Z",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "John Doe",
+                    "rating": 5,
+                    "comment": "The best laptop I have ever used",
+                    "createdAt": "2021-01-01T00:00:00.000Z",
+                    "updatedAt": "2021-01-01T00:00:00.000Z"
+                },
+                {
+                    "id": 2,
+                    "name": "Jane Doe",
+                    "rating": 4,
+                    "comment": "The laptop is great but the price is too high",
+                    "createdAt": "2021-01-01T00:00:00.000Z",
+                    "updatedAt": "2021-01-01T00:00:00.000Z"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Asus ZenBook 14 2020",
+            "price": 1100,
+            "image": "https://www.cnet.com/a/img/resize/ef6793231464c98cdb3e5e9ffb780405eb2a8427/hub/2021/10/23/80425069-0d3e-4c67-9085-a66e6177fc60/macbook-pro-2021-cnet-review-12.jpg?auto=webp&fit=crop&height=362&width=644",
+            "description": "The new Asus ZenBook 14 2020 is the best laptop for developers and designers",
+            "category": "laptop",
+            "quantity": 10,
+            "rating": 4.5,
+            "numReviews": 10,
+            "brand": "Asus",
+            "createdAt": "2021-01-01T00:00:00.000Z",
+            "updatedAt": "2021-01-01T00:00:00.000Z",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "John Doe",
+                    "rating": 5,
+                    "comment": "The best laptop I have ever used",
+                    "createdAt": "2021-01-01T00:00:00.000Z",
+                    "updatedAt": "2021-01-01T00:00:00.000Z"
+                },
+                {
+                    "id": 2,
+                    "name": "Jane Doe",
+                    "rating": 4,
+                    "comment": "The laptop is great but the price is too high",
+                    "createdAt": "2021-01-01T00:00:00.000Z",
+                    "updatedAt": "2021-01-01T00:00:00.000Z"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Acer Swift 3 2020",
+            "price": 1000,
+            "image": "https://www.cnet.com/a/img/resize/ef6793231464c98cdb3e5e9ffb780405eb2a8427/hub/2021/10/23/80425069-0d3e-4c67-9085-a66e6177fc60/macbook-pro-2021-cnet-review-12.jpg?auto=webp&fit=crop&height=362&width=644",
+            "description": "The new Acer Swift 3 2020 is the best laptop for developers and designers",
+            "category": "laptop",
+            "quantity": 10,
+            "rating": 4.5,
+            "numReviews": 10,
+            "brand": "Acer",
+            "createdAt": "2021-01-01T00:00:00.000Z",
+            "updatedAt": "2021-01-01T00:00:00.000Z",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "John Doe",
+                    "rating": 5,
+                    "comment": "The best laptop I have ever used",
+                    "createdAt": "2021-01-01T00:00:00.000Z",
+                    "updatedAt": "2021-01-01T00:00:00.000Z"
+                },
+                {
+                    "id": 2,
+                    "name": "Jane Doe",
+                    "rating": 4,
+                    "comment": "The laptop is great but the price is too high",
+                    "createdAt": "2021-01-01T00:00:00.000Z",
+                    "updatedAt": "2021-01-01T00:00:00.000Z"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Microsoft Surface Laptop 3 2020",
+            "price": 900,
+            "image": "https://www.cnet.com/a/img/resize/ef6793231464c98cdb3e5e9ffb780405eb2a8427/hub/2021/10/23/80425069-0d3e-4c67-9085-a66e6177fc60/macbook-pro-2021-cnet-review-12.jpg?auto=webp&fit=crop&height=362&width=644",
+            "description": "The new Microsoft Surface Laptop 3 2020 is the best laptop for developers and designers",
+            "category": "laptop",
+            "quantity": 10,
+            "rating": 4.5,
+            "numReviews": 10,
+            "brand": "Microsoft",
+            "createdAt": "2021-01-01T00:00:00.000Z",
+            "updatedAt": "2021-01-01T00:00:00.000Z",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "John Doe",
+                    "rating": 5,
+                    "comment": "The best laptop I have ever used",
+                    "createdAt": "2021-01-01T00:00:00.000Z",
+                    "updatedAt": "2021-01-01T00:00:00.000Z"
+                },
+                {
+                    "id": 2,
+                    "name": "Jane Doe",
+                    "rating": 4,
+                    "comment": "The laptop is great but the price is too high",
+                    "createdAt": "2021-01-01T00:00:00.000Z",
+                    "updatedAt": "2021-01-01T00:00:00.000Z"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Razer Blade 15 2020",
+            "price": 1900,
+            "image": "https://www.cnet.com/a/img/resize/ef6793231464c98cdb3e5e9ffb780405eb2a8427/hub/2021/10/23/80425069-0d3e-4c67-9085-a66e6177fc60/macbook-pro-2021-cnet-review-12.jpg?auto=webp&fit=crop&height=362&width=644",
+            "description": "The new Razer Blade 15 2020 is the best laptop for developers and designers",
+            "category": "laptop",
+            "quantity": 10,
+            "rating": 4.5,
+            "numReviews": 10,
+            "brand": "Razer",
+            "createdAt": "2021-01-01T00:00:00.000Z",
+            "updatedAt": "2021-01-01T00:00:00.000Z",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "John Doe",
+                    "rating": 5,
+                    "comment": "The best laptop I have ever used",
+                    "createdAt": "2021-01-01T00:00:00.000Z",
+                    "updatedAt": "2021-01-01T00:00:00.000Z"
+                },
+                {
+                    "id": 2,
+                    "name": "Jane Doe",
+                    "rating": 4,
+                    "comment": "The laptop is great but the price is too high",
+                    "createdAt": "2021-01-01T00:00:00.000Z",
+                    "updatedAt": "2021-01-01T00:00:00.000Z"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "MSI GS66 Stealth 2020",
+            "price": 1800,
+            "image": "https://www.cnet.com/a/img/resize/ef6793231464c98cdb3e5e9ffb780405eb2a8427/hub/2021/10/23/80425069-0d3e-4c67-9085-a66e6177fc60/macbook-pro-2021-cnet-review-12.jpg?auto=webp&fit=crop&height=362&width=644",
+            "description": "The new MSI GS66 Stealth 2020 is the best laptop for developers and designers",
+            "category": "laptop",
+            "quantity": 10,
+            "rating": 4.5,
+            "numReviews": 10,
+            "brand": "MSI",
+            "createdAt": "2021-01-01T00:00:00.000Z",
+            "updatedAt": "2021-01-01T00:00:00.000Z",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "John Doe",
+                    "rating": 5,
+                    "comment": "The best laptop I have ever used",
+                    "createdAt": "2021-01-01T00:00:00.000Z",
+                    "updatedAt": "2021-01-01T00:00:00.000Z"
+                },
+                {
+                    "id": 2,
+                    "name": "Jane Doe",
+                    "rating": 4,
+                    "comment": "The laptop is great but the price is too high",
+                    "createdAt": "2021-01-01T00:00:00.000Z",
+                    "updatedAt": "2021-01-01T00:00:00.000Z"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Gigabyte Aero 15 2020",
+            "price": 1700,
+            "image": "https://www.cnet.com/a/img/resize/ef6793231464c98cdb3e5e9ffb780405eb2a8427/hub/2021/10/23/80425069-0d3e-4c67-9085-a66e6177fc60/macbook-pro-2021-cnet-review-12.jpg?auto=webp&fit=crop&height=362&width=644",
+            "description": "The new Gigabyte Aero 15 2020 is the best laptop for developers and designers",
+            "category": "laptop",
+            "quantity": 10,
+            "rating": 4.5,
+            "numReviews": 10,
+            "brand": "Gigabyte",
+            "createdAt": "2021-01-01T00:00:00.000Z",
+            "updatedAt": "2021-01-01T00:00:00.000Z",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "John Doe",
+                    "rating": 5,
+                    "comment": "The best laptop I have ever used",
+                    "createdAt": "2021-01-01T00:00:00.000Z",
+                    "updatedAt": "2021-01-01T00:00:00.000Z"
+                },
+                {
+                    "id": 2,
+                    "name": "Jane Doe",
+                    "rating": 4,
+                    "comment": "The laptop is great but the price is too high",
+                    "createdAt": "2021-01-01T00:00:00.000Z",
+                    "updatedAt": "2021-01-01T00:00:00.000Z"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Alienware Area-51m 2020",
+            "price": 1600,
+            "image": "https://www.cnet.com/a/img/resize/ef6793231464c98cdb3e5e9ffb780405eb2a8427/hub/2021/10/23/80425069-0d3e-4c67-9085-a66e6177fc60/macbook-pro-2021-cnet-review-12.jpg?auto=webp&fit=crop&height=362&width=644",
+            "description": "The new Alienware Area-51m 2020 is the best laptop for developers and designers",
+            "category": "laptop",
+            "quantity": 10,
+            "rating": 4.5,
+            "numReviews": 10,
+            "brand": "Alienware",
+            "createdAt": "2021-01-01T00:00:00.000Z",
+            "updatedAt": "2021-01-01T00:00:00.000Z",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "John Doe",
+                    "rating": 5,
+                    "comment": "The best laptop I have ever used",
+                    "createdAt": "2021-01-01T00:00:00.000Z",
+                    "updatedAt": "2021-01-01T00:00:00.000Z"
+                },
+                {
+                    "id": 2,
+                    "name": "Jane Doe",
+                    "rating": 4,
+                    "comment": "The laptop is great but the price is too high",
+                    "createdAt": "2021-01-01T00:00:00.000Z",
+                    "updatedAt": "2021-01-01T00:00:00.000Z"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "LG Gram 17 2020",
+            "price": 1400,
+            "image": "https://www.cnet.com/a/img/resize/ef6793231464c98cdb3e5e9ffb780405eb2a8427/hub/2021/10/23/80425069-0d3e-4c67-9085-a66e6177fc60/macbook-pro-2021-cnet-review-12.jpg?auto=webp&fit=crop&height=362&width=644",
+            "description": "The new LG Gram 17 2020 is the best laptop for developers and designers",
+            "category": "laptop",
+            "quantity": 10,
+            "rating": 4.5,
+            "numReviews": 10,
+            "brand": "LG",
+            "createdAt": "2021-01-01T00:00:00.000Z",
+            "updatedAt": "2021-01-01T00:00:00.000Z",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "John Doe",
+                    "rating": 5,
+                    "comment": "The best laptop I have ever used",
+                    "createdAt": "2021-01-01T00:00:00.000Z",
+                    "updatedAt": "2021-01-01T00:00:00.000Z"
+                },
+                {
+                    "id": 2,
+                    "name": "Jane Doe",
+                    "rating": 4,
+                    "comment": "The laptop is great but the price is too high",
+                    "createdAt": "2021-01-01T00:00:00.000Z",
+                    "updatedAt": "2021-01-01T00:00:00.000Z"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Samsung Galaxy Book Flex 2020",
+            "price": 1300,
+            "image": "https://www.cnet.com/a/img/resize/ef6793231464c98cdb3e5e9ffb780405eb2a8427/hub/2021/10/23/80425069-0d3e-4c67-9085-a66e6177fc60/macbook-pro-2021-cnet-review-12.jpg?auto=webp&fit=crop&height=362&width=644",
+            "description": "The new Samsung Galaxy Book Flex 2020 is the best laptop for developers and designers",
+            "category": "laptop",
+            "quantity": 10,
+            "rating": 4.5,
+            "numReviews": 10,
+            "brand": "Samsung",
+            "createdAt": "2021-01-01T00:00:00.000Z",
+            "updatedAt": "2021-01-01T00:00:00.000Z",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "John Doe",
+                    "rating": 5,
+                    "comment": "The best laptop I have ever used",
+                    "createdAt": "2021-01-01T00:00:00.000Z",
+                    "updatedAt": "2021-01-01T00:00:00.000Z"
+                },
+                {
+                    "id": 2,
+                    "name": "Jane Doe",
+                    "rating": 4,
+                    "comment": "The laptop is great but the price is too high",
+                    "createdAt": "2021-01-01T00:00:00.000Z",
+                    "updatedAt": "2021-01-01T00:00:00.000Z"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Huawei MateBook X Pro 2020",
+            "price": 1200,
+            "image": "https://www.cnet.com/a/img/resize/ef6793231464c98cdb3e5e9ffb780405eb2a8427/hub/2021/10/23/80425069-0d3e-4c67-9085-a66e6177fc60/macbook-pro-2021-cnet-review-12.jpg?auto=webp&fit=crop&height=362&width=644",
+            "description": "The new Huawei MateBook X Pro 2020 is the best laptop for developers and designers",
+            "category": "laptop",
+            "quantity": 10,
+            "rating": 4.5,
+            "numReviews": 10,
+            "brand": "Huawei",
+            "createdAt": "2021-01-01T00:00:00.000Z",
+            "updatedAt": "2021-01-01T00:00:00.000Z",
+            "reviews": [
+                {
+                    "id": 1,
+                    "name": "John Doe",
+                    "rating": 5,
+                    "comment": "The best laptop I have ever used",
+                    "createdAt": "2021-01-01T00:00:00.000Z",
+                    "updatedAt": "2021-01-01T00:00:00.000Z"
+                },
+                {
+                    "id": 2,
+                    "name": "Jane Doe",
+                    "rating": 4,
+                    "comment": "The laptop is great but the price is too high",
+                    "createdAt": "2021-01-01T00:00:00.000Z",
+                    "updatedAt": "2021-01-01T00:00:00.000Z"
+                }
+            ]
+        }
+    ]
+}
