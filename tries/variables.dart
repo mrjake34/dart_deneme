@@ -1,5 +1,4 @@
 void main(List<String> args) {
-  
   int a = 10;
   double b = 10.0;
   String c = 'Dart';
