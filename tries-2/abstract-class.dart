@@ -43,7 +43,6 @@ void main() {
   final dog = Dog();
   final cat = Cat();
   final horse = UnnamedAnimal('Horse', 3);
-
   dog.breathe();
   dog.makeNoise();
   horse.breathe();
