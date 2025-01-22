@@ -3,27 +3,37 @@ import 'dart:async';
 extension FunctionExtension on Function {
   Future<Completer> run(Completer completer) async {
     if (completer.isCompleted) {
-      final value = await completer.future;
-      print('Function ${value}');
+      print('Function Already Done');
       return completer;
     } else {
       await this();
-      completer.complete('Done');
+      print('Function Done');
+      completer.complete();
       return completer;
     }
   }
 }
 
 void main() async {
-  final sayHello = (String name) {
-    return print('Hello $name');
-  };
   Completer completer = Completer();
-  completer = await sayHi.run(completer);
-  completer = await sayHello.run(completer);
+  Completer otherCompleter = Completer();
+  completer = await LoginCubit.sayHi.run(completer);
+  if (completer.isCompleted) {
+    otherCompleter = await LoginCubit.sayHello.run(otherCompleter);
+  }
+  if (otherCompleter.isCompleted) {
+    print('All Done');
+  }
 }
 
-void sayHi() async {
-  await Future.delayed(Duration(seconds: 1));
-  return print('Hi');
+final class LoginCubit {
+  static void sayHi() async {
+    await Future.delayed(Duration(seconds: 1));
+    return print('Hi');
+  }
+
+  static void sayHello() async {
+    await Future.delayed(Duration(seconds: 1));
+    return print('Hello');
+  }
 }
