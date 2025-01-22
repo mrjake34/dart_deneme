@@ -1,39 +1,29 @@
 import 'dart:async';
 
 extension FunctionExtension on Function {
-  void callWithDelay(Duration duration) {
-    Future.delayed(duration, () => this());
-  }
-
-  Future<bool> comp(Completer completer) async {
+  Future<Completer> run(Completer completer) async {
     if (completer.isCompleted) {
-      print('Completed');
-      return completer.isCompleted;
+      final value = await completer.future;
+      print('Function ${value}');
+      return completer;
     } else {
-      print('Not completed');
       await this();
-      completer.complete();
-      return completer.isCompleted;
+      completer.complete('Done');
+      return completer;
     }
   }
 }
 
 void main() async {
-  final sayHello = () {
-    return print('Hello');
+  final sayHello = (String name) {
+    return print('Hello $name');
   };
-
-  final completer = Completer();
-  final isCompleted = await sayHi.comp(completer);
-
-  if (isCompleted) {
-    sayHello
-      ..callWithDelay(Duration(seconds: 2))
-      ..comp(completer);
-  }
+  Completer completer = Completer();
+  completer = await sayHi.run(completer);
+  completer = await sayHello.run(completer);
 }
 
 void sayHi() async {
-  Future.delayed(Duration(seconds: 1));
+  await Future.delayed(Duration(seconds: 1));
   return print('Hi');
 }

@@ -8,10 +8,10 @@ Future<void> main(List<String> args) async {
   };
   final completer = Completer();
   print(completer.isCompleted);
-  await sayHello.comp(completer);
+  await sayHello.run(completer);
   print(completer.isCompleted);
 
-  sayHi.comp(completer);
+  sayHi.run(completer);
 }
 
 
