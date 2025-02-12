@@ -18,9 +18,11 @@ void main() async {
   Completer completer = Completer();
   Completer otherCompleter = Completer();
   completer = await LoginCubit.sayHi.run(completer);
+
   if (completer.isCompleted) {
     otherCompleter = await LoginCubit.sayHello.run(otherCompleter);
   }
+
   if (otherCompleter.isCompleted) {
     print('All Done');
   }
